@@ -1,5 +1,5 @@
-import time
 import random
+import time
 from colorama import Fore, Back, Style
 
 print(Fore.LIGHTWHITE_EX + "Üdvözöllek a játékban!")
