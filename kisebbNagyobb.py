@@ -1,9 +1,9 @@
 import random
 number = random.randint(1, 10)
-
+print("Gondoltam egy számra 1 és 10 között! Találd ki!")
 
 for i in range(4):
-    bekero = int(input("Gondolj egy számra 1 és 10 között!"))
+    bekero = int(input("Tippelj: "))
     if number > bekero:
         print("A gondolt szám nagyobb!")
     elif number < bekero:
