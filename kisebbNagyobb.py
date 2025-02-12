@@ -10,6 +10,7 @@ for i in range(4):
         print("A gondolt szám kisebb!")
     else:
         print("Egyenlő a gondolt szám és a megadott szám! Gratulálok!")
+        break
 
 if bekero != number:
     print(f"A gondolt szám: {number}, szar vagy!")
